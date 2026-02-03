@@ -1,4 +1,54 @@
-# Getting Started with Create React App
+# Hello World React App
+
+A simple React application displaying "Hello World" with custom styling, containerized with Docker.
+
+## Dependencies
+
+- Node.js (v14 or higher)
+- npm (comes with Node.js)
+- Docker (for containerized deployment)
+
+## Installation & Setup
+
+### Local Development
+
+1. **Clone the repository**
+```bash
+   git clone https://github.com/YOUR-USERNAME/classIntro.git
+   cd classIntro
+```
+
+2. **Install dependencies**
+```bash
+   npm install
+```
+
+3. **Run the app**
+```bash
+   npm start
+```
+
+4. **View in browser**
+   Open [http://localhost:3000](http://localhost:3000)
+
+### Docker Deployment
+
+1. **Build the Docker image**
+```bash
+   docker build -t hello-world-react .
+```
+
+2. **Run the container**
+```bash
+   docker run -p 3000:3000 hello-world-react
+```
+
+3. **Access the app**
+   Open [http://localhost:3000](http://localhost:3000) in your browser
+
+---
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
